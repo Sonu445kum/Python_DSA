@@ -4,7 +4,13 @@
 
 # Use sys.stdin.read() → to read everything at once
 
-import sys
+# import sys
 
-data = sys.stdin.read()
-print("All input collected:\n", data)
+# data = sys.stdin.read()
+# print("All input collected:\n", data)
+
+import sys
+line = sys.stdin.readline()
+print("You entered:", line)  # includes '\n'
+print("After strip:", line.strip())
+

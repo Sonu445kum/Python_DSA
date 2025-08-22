@@ -35,4 +35,12 @@ extractStr=list(map(lambda x:x[0],s2))
 print(extractStr)
 
 # Removing whitespaces from strings
-s3 =['  hello   ' , '   ']
+s3 =['  hello   ' , '  World ' , ' python ']
+removeSpace =list(map(str.strip,s3))
+print(removeSpace)
+
+# Calculate fahrenheit from celsius
+celsius = [0, 20, 37, 100]
+fahrenheit = map(lambda c: (c * 9/5) + 32, celsius)
+print(list(fahrenheit))
+

@@ -9,3 +9,7 @@ print(s1 != s2)
 
 # "apple" comes before "banana" lexicographically, therefore it is True
 print(s1 < s2)
+
+st="apple"
+li=list(st)
+print(li)
